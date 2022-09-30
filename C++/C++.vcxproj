@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="hw2.1.cpp" />
     <ClCompile Include="hw2.2.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

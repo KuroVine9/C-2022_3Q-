@@ -8,7 +8,7 @@ private:
 	int numOfApples;
 	int money;
 public:
-	FruitSeller(int APPLE_PRICE, int numOfApples, int Money) {
+	FruitSeller(int APPLE_PRICE, int numOfApples, int Money) {	//생성자
 		this->APPLE_PRICE = APPLE_PRICE;
 		this->numOfApples = numOfApples;
 		this->money = Money;
@@ -49,7 +49,7 @@ public:
 };
 
 int main() {
-	FruitSeller* seller = new FruitSeller(100, 20, 0);
+	FruitSeller* seller = new FruitSeller(100, 20, 0);	//동적할당
 	FruitBuyer* buyer = new FruitBuyer(5000);
 
 	cout << "과일 판매자의 현황" << endl;
@@ -65,7 +65,7 @@ int main() {
 	cout << "과일 구매자의 현황" << endl;
 	buyer->ShowBuyResult();
 
-	delete(seller);
+	delete(seller);	//동적할당 해제
 	delete(buyer);
 
 	return 0;
