@@ -197,7 +197,7 @@ public:
 		for (; iter_this != this->end() || iter_val != val.end(); ++iter_this, ++iter_val) {
 			if (*iter_this != *iter_val) return false;
 		}
-		return true;
+		return this->list_size == val.list_size;
 	}
 	LinkedString& push_back(char val) {
 		Node* newNode = new Node(val);
