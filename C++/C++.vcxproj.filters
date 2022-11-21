@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hw2.1.cpp">
+    <ClCompile Include="myString.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
